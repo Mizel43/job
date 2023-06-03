@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Подработка</title>
-    <link type="image/x-icon" href="./assets/images/telegram1.png" rel="shortcut icon">
+    <link type="image/x-icon" href="./assets/images/favicon.ico" rel="shortcut icon">
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/fontawesome.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -78,7 +78,7 @@
                     <input readonly style="cursor: default;" class="email fs-4 fw-bold" placeholder="Свяжитесь с нами">
                   </fieldset>
                   <fieldset>
-                    <button id='wapp2' class="main-button">Наш Телеграмм</button>
+                    <button  onclick="window.location.href='./page.html'" class="main-button">Наш Телеграмм</button>
                   </fieldset>
                 </form>
               </div>
@@ -201,6 +201,40 @@
     </div>
   </div>
 
+  <div id="info-sec" class="contact-us section mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 align-self-center wow fadeInLeft " data-wow-duration="0.5s" data-wow-delay="0.25s">
+          <div class="section-heading">
+            
+            <p class="fs-5">Свободный рабочий график, не ограниченный местом работы. 
+              Работай удаленно с мобильного телефона или компьютера.</p>
+              <br>
+            <p class="fs-5">Задайте все свои вопросы нашему менеджеру по персоналу в  Телеграмм, и мы 
+              организуем индивидуальное обучение с преподавателем. <br> Обучение 
+              займет всего 5 минут!</p>
+            
+          </div>
+        </div>
+        <div class="col"></div>
+        <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
+          <div class="section-heading">
+            <br>
+            <h2><em>Описание вакансии:</em></h2>
+            <p class="fs-5">
+               Мы помогаем продавцам в интернет-магазинах делать 
+  обзоры товаров, или загружать и просматривать приложения на 
+  Google, Apple, Android, Huawei и других системах. Задания 
+  часто меняются в зависимости от того, чем мы занимаемся в течение дня. 
+  Зарплата выплачивается в зависимости от задания, и деньги можно 
+  снять после выполнения задания, или Вам переведут их на банковскую карту.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div id="portfolio" class="our-portfolio section">
     <div class="container">
       <div class="row">
@@ -268,15 +302,148 @@
     </div>
   </div>
 
-  <div id="contact" class="contact-us section">
+  <div id="QA" class="our-portfolio section pb-3">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <h2><em>Часто</em> задаваемые <span>вопросы</span></h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion col-lg-8 mb-5 col mx-auto" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+              Какие гарантии, что всё честно?
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              Мы работаем с Вами по договору.
+              <strong>Таким образом ваша безопасность по всем выплатам будет
+                гарантирована!</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+              Условия работы?
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Ежедневная
+                оплата от 3000<strong data-redactor-tag="strong">₽</strong> до 7000₽ (в
+                зависимости от проекта). Выплачивается по факту выполненной
+                работы.<br><br>Итоговый доход у опытного сотрудника может достигать
+                более 70.000р. в месяц<br><br>Или подработка на один-два раза. как Вам
+                удобно.</strong> <br><br> - Вакансия на должность гестора подходит для
+                граждан от 21 года постоянно зарегистрированных на территории РФ <br><br>
+                <strong>- Опыт работы не требуется.<br>- График свободный, по
+                  согласованию<br>- Оформление по ТК РФ.</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+              Кому подходит заработок "Гестером
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Практически
+                всем от 21 года, так как не отнимает много времении ни какого опыта
+                работы не требуется.</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+              Требования к соискателям?
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong> Возраст от 21
+                года Прописка МСК и МО приветствуется но не обязательна, регионы тоже
+                берем. Рассматриваем всех кандидатов Ответственность Исполнительность
+                Честность </strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+              Кто такой "Гестор"?
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Исполнитель выполняет
+                                            поручения в интересах поручителя ему задания, то есть работодателя. Наша
+                                            компания заключает договор. 
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+              Безопасно передавать свои данные через интернет?
+            </button>
+          </h2>
+          <div id="collapse6" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Конечно, если
+                сайт является носителем крипто ключа безопасности имеет сертификат
+                SSL.<br>Простым языком, если Вы видите "замочек" в строке где вводится
+                адреса сайта, значит все хорошо, можно доверять!<br><br>Подробней о
+                ключе и сам ключ электронного ключа безопасности Вы можете запросить при
+                прохождения он-лайн интервью.</strong>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+              Кто Вы
+                                            такие и сколько на рынке?
+            </button>
+          </h2>
+          <div id="collapse7" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Компания "Бизнес
+                                            Среда" - более 8 лет одна из лидирующих на рынке компаний, помогающая
+                                            организациям в выигрыши коммерческих тендеров на право оптовых закупок и
+                                            строительных работ.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <div id="contact" class="contact-us section mt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center wow fadeInLeft " data-wow-duration="0.5s" data-wow-delay="0.25s">
           <div class="section-heading">
-            <h2>Опять просят отправить Ваши контактные данные? </h2>
-            <p>А мы не будем просить Ваших контактных данных. <br> Просто нажми на кнопку</p>
-            <div class="phone-info" id="wapp1" style="cursor: pointer;">
-              <h4>и напиши нам в: <span><i><img src="./assets/images/telegram1.png" alt=""></i> <a>Телеграмм</a></span></h4>
+            <h2 style="margin-left: 0;">Опять просят отправить Ваши контактные данные? </h2>
+            <p class="fs-6">А мы не будем просить Ваших контактных данных. <br> Просто нажми на кнопку</p>
+            <div class="phone-info" href="page.html" style="cursor: pointer;">
+              <h4>и напиши нам в: <span><i><img src="./assets/images/telegram1.png" alt=""></i> <a class="fs-6">Телеграмм</a></span></h4>
             </div>
           </div>
         </div>
@@ -305,7 +472,7 @@
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <button readonly style="cursor: default;" id="wapp3" class="main-button ">Отправить</button>
+                  <button href="page.html" readonly style="cursor: default;" class="main-button ">Отправить</button>
                 </fieldset>
               </div>
             </div>
@@ -318,18 +485,156 @@
     </div>
   </div>
 
+  <div id="map" class="section my-5 pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 align-self-center wow fadeInLeft " data-wow-duration="0.5s" data-wow-delay="0.25s">
+          
+            <h2 style="margin-left: 0;">Контакты:</h2>
+            <p class="fs-6 mt-3"><strong>Телефон:</strong> +7 495 148 69 98</p>
+            <p class="fs-6"><strong>Адрес:</strong> Москва, ул Малая Грузинская, д. 3-9,</p>
+          
+        </div>
+        <div class="col-lg-7 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa1e64a20b085d688f6d828df20074f20a2fdcc1d5cfe5c93635d655d3314274b&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
           <p>Подработка для тебя! 
           
-          <br>Свяжись с нами: <a id="wapp4" rel="nofollow" href="#">Телеграмм</a></p>
+          <br>Свяжись с нами: <a rel="nofollow" href="page.html">Телеграмм</a></p>
         </div>
       </div>
     </div>
   </footer>
   <!-- Scripts -->
+  <style>
+		#wapp{
+			position: fixed;
+			z-index: 99;
+			left: 0;
+			bottom: -120px;
+			width: 320px;
+			height: 80px;
+			background-color: #03a4ed;
+			border-top-right-radius: 20px;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			cursor: pointer;
+			transition: bottom 1s;
+      display: none;
+		}
+    @media(max-width: 760px){
+      #wapp{
+        display: flex;
+      }
+    }
+		
+		.wapp_logo{
+			position: absolute;
+			z-index: 99;
+			left: 5%;
+			background-image: url(./assets/images/telegram1.png);
+			box-sizing: cover;
+			width: 50px;
+			height: 50px;
+		}
+		.wapp_txt{
+			text-align: left;
+			width: 60%;
+			padding-left: 15px;
+		}
+		.cross{
+			background-color: #03a4ed;
+			width: 30px;
+			height: 30px;
+			text-align: center;
+			line-height: 30px;
+			border-radius: 100%;
+			border: 1px solid #000;
+			position: absolute;
+			top: -50%;
+			left: 90%;
+			cursor: pointer;
+
+		}
+	</style>
+	<div id='wapp' href="page.html">
+		<div class='cross'>&times;</div>
+		<div class='wapp_logo'></div>
+		<div class='wapp_txt'><b>Пройти собеседование в</b> Telegram</div>
+	</div>
+	<script>
+		const numbers = ['rc5612', 'Dima66', 'RC897', 'Lorstenapitz'];
+
+		const randomIndex = Math.floor(Math.random() * (numbers.length - 1));
+		const result = numbers[randomIndex];
+
+		let wapp = document.getElementById('wapp');
+		
+		let phone2 = result;
+		let txt = document.querySelector('.wapp_txt');
+		let logo = document.querySelector('.wapp_logo');
+		let path2 = 'https://t.me/' + result;
+		let cross = document.querySelector('.cross');
+
+		let unhover = setTimeout(function show() {
+			wapp.style.bottom = '0';
+		}, 1500);
+
+		wapp.addEventListener('click', function call_wapp(event) {
+			let t = event.target;
+			if (!t.classList.contains('cross')) {
+				let win = window.open(path2, '_blank');
+				win.focus();
+			}
+		})
+
+		cross.addEventListener('click', function hide_wapp() {
+			wapp.style.transition = 'bottom 0.1s, left 0.1s, width 0.1s, border-radius 0.1s, height 0.1s'; // скорость сворачивания плашки
+			cross.remove();
+			txt.remove();
+			wapp.style.width = '0px'; //окружность после схлопывания плашки на десктопе
+			wapp.style.height = '0px';
+			wapp.style.justifyContent = 'center';
+			wapp.style.borderRadius = '1000px';
+			wapp.style.textShadow = '0 1px 0 #1f4c76';
+			wapp.style.boxShadow = '0 0 0 0 rgba(90, 153, 220, 0.7), inset 0 1px 0 #abcbe9';
+			wapp.style.bottom = '35px';
+			wapp.style.left = '23px';
+			logo.style.backgroundImage = 'url(./assets/images/telegram1.png)';
+
+			let flip = setTimeout(function flipper() {
+				logo.style.transformStyle = 'preserve-3d';
+				logo.style.animation = 'main-rotate 0.5s 1 linear'; // скорость анимации
+			}, 3000);
+
+			if (window.matchMedia('(max-width: 1000px)').matches) {
+				wapp.style.width = '0px'; //окружность после схлопывания плашки на мобиле
+				wapp.style.height = '0px';
+				wapp.style.bottom = '25px';
+				wapp.style.left = '19px';
+			}
+
+			let cssAnimation = document.createElement('style');
+			cssAnimation.type = 'text/css';
+			let rules = document.createTextNode('@-webkit-keyframes pulse {' +
+				'to{box-shadow:0 0 0 15px rgba(90, 153, 220, 0), inset 0 1px 0 #abcbe9}' +
+				'}' + '@keyframes main-rotate { 100% { transform: rotateY(720deg); } }');
+			cssAnimation.appendChild(rules);
+			document.getElementsByTagName("head")[0].appendChild(cssAnimation);
+		})
+	</script>
+
   <script src="./vendor/jquery/jquery.min.js"></script>
   <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="./assets/js/owl-carousel.js"></script>
